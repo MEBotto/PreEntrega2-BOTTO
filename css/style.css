@@ -126,3 +126,7 @@
 .imagen-footer {
     margin-top: 5px;
 }
+
+.nav-link:hover {
+    color: red;
+}
