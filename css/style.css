@@ -23,8 +23,49 @@
     font-size: large;
 }
 
-header {
-    position: sticky;
-    z-index: 9999;
-    top: 0px;
+.tittle{
+    font-size: 100px;
+    display: inline-flex;
+    font-family: "Gilroy-ExtraBold";
+    color: white;
+    z-index: 999;
+}
+
+.main-bg-1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/background.png);
+}
+
+.main-bg-2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/background2.png);
+}
+
+.main-bg-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/background3.png);
+}
+
+@media (min-width: 320px) and (max-width: 444px) {
+    .tittle {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 445px) and (max-width: 1200px) {
+    .tittle {
+        font-size: 85px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tittle {
+        font-size: 130px;
+    }
 }
