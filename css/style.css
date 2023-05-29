@@ -308,3 +308,24 @@ body {
     background-position: center center;
     background-image: url(../assets/img/kobeback3.jpg);
 }
+
+.contacto-bg-1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/contactoback.jpg);
+}
+
+.contacto-bg-2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/contactoback2.jpg);
+}
+
+.contacto-bg-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/contactoback3.jpg);
+}

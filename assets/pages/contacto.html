@@ -35,10 +35,83 @@
     </nav>
   </header>
 
+  <main>
+    <div id="carousel-contacto">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active contacto-bg-1">
+            <div class="d-flex h-100 align-items-center justify-content-center">
+              <h1 class="tittle">CONTACTO</h1>
+            </div>
+          </div>
+          <div class="carousel-item contacto-bg-2">
+            <div class="d-flex h-100 align-items-center justify-content-center">
+              <h2 class="tittle">CONTACTO</h2>
+            </div>
+          </div>
+          <div class="carousel-item contacto-bg-3">
+            <div class="d-flex h-100 align-items-center justify-content-center">
+              <h2 class="tittle">CONTACTO</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="mb-3">
+                <label for="apellido" class="form-label">Apellido:</label>
+                <input type="text" class="form-control" id="nombre">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="mb-3">
+                <label for="celular" class="form-label">Telefono:</label>
+                <input type="tel" class="form-control" id="celular">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
+            </div>
+          </div>
+          <div class="row">
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </div>
+          <div class="row">
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Comentarios</label>
+              <textarea class="form-control" placeholder="Deja un comentario" id="floatingTextarea2" style="height: 100px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button type="submit" class="btn btn-primary d-inline-block">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </main>
+
   <footer class="bg-body-tertiary">
     <div class="container text-center">
       <div class="row">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="#carousel-contacto">
           <img class="imagen-footer" src="../img/torii.png" alt="Logo de la Pagina: Torii" width="100px">
         </a>
         <p class="textFooter1">©2016 - 2023 Japan.com All Rights Reserved.</p>
