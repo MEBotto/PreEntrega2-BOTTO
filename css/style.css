@@ -185,3 +185,42 @@ body {
 .bg-section-gray {
     background-color: #F7F7F8;
 }
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .description-text {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .description-text {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1025px){
+    .description-text {
+        font-size: 18px;
+    }
+}
+
+.osaka-bg-1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/osakaback.jpg);
+}
+
+.osaka-bg-2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/osakaback2.jpg);
+}
+
+.osaka-bg-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/osakaback3.jpg);
+}
