@@ -266,3 +266,24 @@ body {
     background-position: center center;
     background-image: url(../assets/img/okinawaback3.jpg);
 }
+
+.fukuoka-bg-1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/fukuokaback.jpg);
+}
+
+.fukuoka-bg-2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/fukuokaback2.jpg);
+}
+
+.fukuoka-bg-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/fukuokaback3.jpg);
+}
