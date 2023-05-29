@@ -245,3 +245,24 @@ body {
     background-position: center center;
     background-image: url(../assets/img/kyotoback3.jpg);
 }
+
+.okinawa-bg-1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/okinawaback.jpg);
+}
+
+.okinawa-bg-2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/okinawaback2.jpg);
+}
+
+.okinawa-bg-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/okinawaback3.jpg);
+}
