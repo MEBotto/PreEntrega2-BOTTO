@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0   ;
+    margin: 0;
 }
 
 @font-face {
@@ -11,6 +11,10 @@
 @font-face {
     font-family: "Gilroy-Light";
     src: url(../assets/fonts/gilroy-light.otf);
+}
+
+body {
+    background-color: white;
 }
 
 #navbarNavAltMarkup{
@@ -37,6 +41,13 @@
 }
 
 .subtittle {
+    font-family: "Gilroy-ExtraBold";
+    color: black;
+    z-index: 999;
+    margin-top: 40px;
+}
+
+.subtheme {
     font-family: "Gilroy-ExtraBold";
     color: black;
     z-index: 999;
@@ -79,6 +90,9 @@
     .subtittle {
         font-size: 40px;
     }
+    .subtheme {
+        font-size: 30px;
+    }
     .subtittle-descripcion {
         font-size: medium;
     }
@@ -94,6 +108,9 @@
     .subtittle {
         font-size: 60px;
     }
+    .subtheme {
+        font-size: 50px;
+    }
     .subtittle-descripcion {
         font-size: large;
     }
@@ -108,6 +125,9 @@
     }
     .subtittle {
         font-size: 70px;
+    }
+    .subtheme {
+        font-size: 60px;
     }
     .subtittle-descripcion {
         font-size: xx-large;
@@ -129,4 +149,39 @@
 
 .nav-link:hover {
     color: red;
+}
+
+.tokyo-bg-1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/tokyoback.jpg);
+}
+
+.tokyo-bg-2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/tokyoback2.jpg);
+}
+
+.tokyo-bg-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/tokyoback3.jpg);
+}
+
+.description-text {
+    font-family: "Gilroy-Light";
+    text-align: justify;
+}
+
+.centrar {
+    display: flex;
+    align-items: center;
+}
+
+.bg-section-gray {
+    background-color: #F7F7F8;
 }
