@@ -287,3 +287,24 @@ body {
     background-position: center center;
     background-image: url(../assets/img/fukuokaback3.jpg);
 }
+
+.kobe-bg-1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/kobeback.jpg);
+}
+
+.kobe-bg-2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/kobeback2.jpg);
+}
+
+.kobe-bg-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/img/kobeback3.jpg);
+}
